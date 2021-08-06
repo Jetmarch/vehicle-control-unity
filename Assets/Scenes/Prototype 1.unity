@@ -1180,6 +1180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicleSpeed: 20
+  turnSpeed: 34
 --- !u!54 &2052696323
 Rigidbody:
   m_ObjectHideFlags: 0
