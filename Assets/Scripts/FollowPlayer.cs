@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public GameObject player;
-    public Transform positionBehindCar;
-    public Transform positionOnDriverSeat;
-    private float tilt = 18.5f;
+    [SerializeField] private GameObject player;
+    [SerializeField] private Transform positionBehindCar;
+    [SerializeField] private Transform positionOnDriverSeat;
+    [SerializeField] private float tilt = 18.5f;
     private bool isCameraOnDriverSeat;
     
     
